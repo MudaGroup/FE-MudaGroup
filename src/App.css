@@ -79,7 +79,15 @@ body{
 /* Responsive Design: Mengatur tampilan pada layar kecil */
 @media (max-width: 768px) {
   .contractor-page h1 {
-      font-size: 2rem; /* Menyesuaikan ukuran font judul untuk layar kecil */
-      margin-bottom: 15px; /* Menyesuaikan jarak antara judul dan gambar */
+      font-size: 1.3rem; 
+      margin-bottom: 15px;
+  }
+
+  .contractor-page img {
+    max-width: 20%; /* Membuat gambar responsif */
+    height: auto; /* Memastikan aspek rasio gambar tetap terjaga */
+    border-radius: 8px; /* Membuat sudut gambar melengkung */
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
