@@ -7,3 +7,30 @@ body{
   height: 100%;
   width: 100%;
 }
+
+/* Mengatur gaya untuk halaman utama */
+.homepage {
+  text-align: center;
+  padding: 0;
+}
+
+/* Gaya untuk header yang berisi carousel */
+.header-box {
+  background-color: #f8f9fa; /* Warna latar belakang header */
+  padding: 0; /* Menghapus padding untuk header */
+}
+
+/* Gaya untuk carousel dan gambar di dalamnya */
+.carousel-item img {
+  width: 100%; /* Membuat gambar memenuhi lebar kontainer carousel */
+  height: 610px; /* Memastikan aspek rasio gambar tetap terjaga */
+  object-fit: cover; /* Memastikan gambar terpotong dengan baik dalam ukuran yang diinginkan */
+}
+
+/* Responsive: Mengatur tampilan untuk layar kecil */
+@media (max-width: 768px) {
+  .carousel-item img {
+      width: 100%; /* Gambar tetap memenuhi lebar kontainer pada layar kecil */
+      height: auto; /* Memastikan gambar tidak terdistorsi */
+  }
+}
