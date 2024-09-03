@@ -34,3 +34,52 @@ body{
       height: auto; /* Memastikan gambar tidak terdistorsi */
   }
 }
+
+/* Mengatur gaya untuk halaman contractor */
+.contractor-page {
+    position: relative; /* Membuat posisi relatif untuk kontainer utama */
+    text-align: center;
+    padding: 40px;
+    opacity: 100%;
+    color: #fff; /* Warna teks menjadi putih agar kontras dengan gambar latar belakang */
+}
+
+/* Mengatur gaya untuk halaman contractor */
+.contractor-page{
+  text-align: center;
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff; /* Warna latar belakang default */
+  background-image: url('/public/img/Dummy/Dummy2opacity.png'); /* Gambar latar belakang */
+  background-size: cover; /* Menyesuaikan ukuran gambar latar belakang */
+  background-position: center; /* Menyelaraskan gambar latar belakang di tengah */
+  background-repeat: no-repeat; /* Mencegah gambar latar belakang dari pengulangan */
+  color: #fff; /* Warna teks menjadi putih agar kontras dengan gambar latar belakang */
+}
+
+/* Gaya untuk judul */
+.contractor-page h1 {
+  font-size: 2rem; /* Ukuran font untuk judul */
+  color: black; /* Warna teks judul */
+  margin-bottom: 50px; /* Jarak antara judul dan gambar */
+  font-weight: bold; /* Menebalkan teks judul */
+  opacity: 100%;
+}
+
+/* Gaya untuk gambar */
+.contractor-page img {
+  max-width: 20%; /* Membuat gambar responsif */
+  height: auto; /* Memastikan aspek rasio gambar tetap terjaga */
+  border-radius: 8px; /* Membuat sudut gambar melengkung */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/* Responsive Design: Mengatur tampilan pada layar kecil */
+@media (max-width: 768px) {
+  .contractor-page h1 {
+      font-size: 2rem; /* Menyesuaikan ukuran font judul untuk layar kecil */
+      margin-bottom: 15px; /* Menyesuaikan jarak antara judul dan gambar */
+  }
+}

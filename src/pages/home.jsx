@@ -2,6 +2,7 @@ import React from "react";
 import heroImage1 from "/public/img/Dummy/Dummy1.jpeg";
 import { Carousel } from "react-bootstrap";
 import "/src/App.css"
+import { Contractor } from "../component/contractor";
 
 export const Home = () => {
   return (
@@ -25,6 +26,8 @@ export const Home = () => {
           </Carousel.Item>
         </Carousel>
       </header>
+
+      <Contractor />
     </div>
   );
 };
